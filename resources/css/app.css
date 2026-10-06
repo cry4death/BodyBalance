@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+  --color-ivory: #FAF8F3;
+  --color-ink: #2B2B26;
+  --color-sage: #4A5D4E;
+  --color-terracotta: #C97B5C;
+  --color-sand: #F1ECDF;
+  --color-sand-2: #EFE8D8;
+  --color-line: #E7E1D4;
+  --color-muted: #55534A;
+  --color-muted-2: #8A876F;
+  --color-muted-3: #A79F87;
+
+  /* Временно: у Fraunces и Work Sans нет кириллицы, ждём решения дизайнера */
+  --font-serif: 'Lora', Georgia, serif;
+  --font-sans: 'Manrope', system-ui, sans-serif;
+}

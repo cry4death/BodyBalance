@@ -3,4 +3,6 @@ includes:
 parameters:
     paths:
         - app/
+        # Test models that use app traits (e.g. HasSeo) before real domain models exist.
+        - tests/Fixtures/
     level: 6
